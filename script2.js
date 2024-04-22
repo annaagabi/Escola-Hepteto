@@ -37,7 +37,7 @@ function salva(){
             name = `<p class="y">${nome}</p>`
         }
         else{
-            situacao = '<p class="r">REPRPOVADO</p>'
+            situacao = '<p class="r">REPROVADO</p>'
             name = `<p class="r">${nome}</p>`
         }
         
