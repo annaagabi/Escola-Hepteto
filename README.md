@@ -1,5 +1,5 @@
 # Escola Hepteto
-Projeto desenvolvido para o o Senai Suíço-Brasileira "Paulo Ernesto Tolle" com o intuito de criar uma aplicação web (HTML, CSS e JS) para o boletim de uma escola
+Projeto desenvolvido para o Senai Suíço-Brasileira "Paulo Ernesto Tolle" com o intuito de criar uma aplicação web (HTML, CSS e JS) para o boletim de uma escola
 
 ## Tecnologias Utilizadas
 [![My Skills](https://skillicons.dev/icons?i=javascript,html,css)](https://skillicons.dev)
