@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins&display=swap');
+
+h1{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+.topo{
+    column-count: 2;
+    background-color: #2d2340;
+    color: white;
+    display: flex;
+    height: 250px;
+    width: auto;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
+.img{
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+}
+.topo h1{
+    margin: 0;
+    padding: 50px;
+    font-weight: lighter;
+}
+
+thead{
+    color: #fff;
+    background-color: #361E6A;
+    width: 80vw;
+    
+    
+    
+}
+tr th{
+    width: 10vw;
+    border-radius: 10px;  
+}
+tr th:last-child{
+    width: 20vw;   
+}
+tbody{
+    background-color: #8265BF;
+}
+
+td{
+    color: #fff;
+}
+
+.titulo-menu{
+    background-color: #361E6A
+}
+
+.tabela{
+    background-color: #8265BF;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table{
+    border-color: #8265BF;
+    border-radius: 50%;
+    max-width: 80vw;
+}
+.text-center{
+    text-align: center;
+}
+.y{
+    background-color: #B6BA00;
+}
+.g{
+    background-color: #17A3A0;
+}
+.r{
+    background-color: #BF0000;
+}
+p{
+    border-radius: 10px;
+}
+/*
+/*
+
+/* #btn-btn-info{
+    background-color: #34BFBC;
+} */
+

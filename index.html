@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola Hepteto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header class="topo">
+        <img class="img" src="/IMG/Logo - print 2.PNG" alt="Logo">
+            <h1>CONHECIMENTO, HABILIDADE E ATITUDE</h1>
+    </header>
+    <main class="conteudo" id="conteudo">
+        <div class="informacoes" id="info">
+            <h3>INSIRA AS INFORMAÇÕES DOS 5 ALUNOS:</h2>
+
+            <form id="form">
+            <div class="nome">
+                <input type="text" name="nome" id="nome" placeholder="Nome do Aluno" required maxlength="200">
+            </div>
+            <div class="notas1">
+                    <input type="number" class="nota" name="n1" id="n1" required min="0" max="100" onclick="alerta()" placeholder="1º Nota">
+                    <input type="number" class="nota" name="n2" id="n2" required min="0" max="100" placeholder="2º Nota">
+            </div>
+            <div class="notas2">
+                <input type="number" class="nota" name="n3" id="n3" required min="0" max="100" placeholder="3º Nota">
+                <input type="number" class="nota" name="n4" id="n4" required min="0" max="100" placeholder="4º Nota">
+            </div>
+            <div class="botao-salvar">
+                    <button type="button" onclick="salva()">Salvar</button>
+            </div>
+        </form>
+
+        </div>
+        <div class="lista-info">
+            <div class="lista">
+                <div class="lista-1">
+                    <h4>Lista de Alunos</h4>
+                </div>
+                <div class="lista-2">
+                    <p id="nome-exibir"></p>
+                    <!-- <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>  -->
+                </div>
+            </div>
+            
+        </div>
+
+    </main >
+    <div id = 'nova-tabela'>
+        <h1 class="offset-md-1" style="color: #361E6A">Situação dos Alunos</h1>
+    <br>
+
+    <!-- TABELA  -->
+    <div class="table-responsive mx-auto" style="max-width: 80vw">
+    <div class="tabela text-center">
+      <table class="table text-center">
+        <thead>
+            <tr> 
+              <!-- CABEÇALHO -->
+                <th>Nome</th>
+                <th>1ª Nota</th>
+                <th>2ª Nota</th>
+                <th>3ª Nota</th>
+                <th>4ª Nota</th>
+                <th>Média</th>
+                <th>Situação</th>
+                <th>Média da Turma</th>
+            </tr>
+            <!-- <tbody id="tabelaCorpo"></tbody> -->
+        </thead> 
+
+            <tbody id="tbody">
+            </tbody> 
+            <div id="listaAlunos" style="display: none;">
+            <h2>Lista de Alunos:</h2>
+            <ul id="alunosList"></ul>
+        </div>
+        </table>
+        
+    </div>
+    </div>
+
+    <br>
+    
+    <div class="text-center">
+        <a href="index.html"><button type="button" class="btn btn-info " style="color: #fff; background-color: #34BFBC" >VOLTA</button></a>
+    </div>
+    </div>
+
+    <!-- <script src="script.js"></script> -->
+
+    <script src="script2.js"></script>
+
+    <!-- vscode-file://vscode-app/c:/Users/CT%20Desenvolvimento/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html -->
+</body>
+</html>

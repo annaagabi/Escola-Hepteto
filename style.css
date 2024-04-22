@@ -1,0 +1,141 @@
+*{
+    justify-content: center;
+    align-items: center; 
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 23px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.topo{
+    column-count: 2;
+    background-color: #2d2340;
+    color: white;
+    display: flex;
+    height: 250px;
+    width: auto;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
+.img{
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+}
+.topo h1{
+    margin: 0;
+    padding: 50px;
+    font-weight: lighter;
+}
+.informacoes{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px;
+    width: 50%;
+}
+.conteudo{
+    display: flex;
+    column-count: 2;
+}
+input:invalid .form{
+    border-color: red;
+}
+input:valid .form{
+    border-color: green;
+}
+.nome input{
+    width: 25%;
+    height: 40px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: #D9D9D9;
+    border: none;
+    margin-top: 30px;
+    border-radius: 60px;
+}
+.notas1 input{
+    width: 15%;
+    height: 40px;
+    font-family: Arial, sans-serif;
+    font-size: 20px; 
+    text-align: center;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 60px;
+    margin: 50px;
+    margin-top: 30px;
+    
+}
+.notas2 input{
+    width: 15%;
+    height: 40px;
+    font-family: Arial, sans-serif;
+    font-size: 20px; 
+    text-align: center;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 60px;
+    margin: 50px;
+    margin-top: 30px;  
+}
+h3, h4{
+    font-weight: lighter;
+}
+button{
+    background-color: #34BFBC;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 0px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.botao-salvar button{
+    width: 15%;
+    height: 40px;
+}
+.lista-info{
+    width: 50%;
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+.lista{
+    box-sizing: border-box;
+    width: 400px;
+    background-color: #361E6A;
+    border-radius: 40px;
+    color: white;
+    justify-content: center;
+    overflow: hidden;
+    
+    
+}
+.lista-1{
+    background-color: #361E6A;
+    text-align: center;
+    border-start-start-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.lista-2{
+    background-color: #8265BF;
+    border-end-end-radius: 40px;
+    border-end-start-radius: 40px; 
+    text-align: center;
+    height: 200px;
+}
+.botao button{
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 40px;
+}
+
